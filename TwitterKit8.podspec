@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
  
   spec.name         = "TwitterKit8"
-  spec.version      = "8.0.2"
+  spec.version      = "8.0.3"
   spec.summary      = "Increase user engagement and app growth."
 
   spec.description  = <<-DESC
@@ -44,7 +44,6 @@ SOFTWARE.
 
   spec.homepage         = 'https://github.com/zhengzhanghai/twitter-kit-ios6'
   spec.source           = { :http => "https://raw.githubusercontent.com/zhengzhanghai/twitter-kit-ios/master/release/TwitterKitFramework8.0.1.zip"}
-  spec.vendored_frameworks = 'TwitterKit.framework'
-  spec.resource = "TwitterKitResources.bundle"
-
+  spec.vendored_frameworks = "TwitterKit.framework"
+  spec.resource             = "TwitterKitResources.bundle"
 end
