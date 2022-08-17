@@ -1,8 +1,7 @@
-
 Pod::Spec.new do |spec|
  
   spec.name         = "TwitterKit8"
-  spec.version      = "8.0.7"
+  spec.version      = "8.0.8"
   spec.summary      = "Increase user engagement and app growth."
 
   spec.description  = <<-DESC
@@ -15,17 +14,14 @@ Pod::Spec.new do |spec|
     :text => 'MIT License
     
 Copyright (c) 2020 DataEngineering / SoftwareDevelopKit
-
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
 to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 copies of the Software, and to permit persons to whom the Software is
 furnished to do so, subject to the following conditions:
-
 The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
-
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -43,6 +39,10 @@ SOFTWARE.
   spec.requires_arc = true
 
   spec.homepage         = 'https://github.com/zhengzhanghai/twitter-kit-ios6'
-  spec.source           = { :http => "https://raw.githubusercontent.com/zhengzhanghai/twitter-kit-ios/master/release/TwitterKitFramework8.0.1.zip"}
-  spec.resources = ["TwitterKitResources.bundle"]
+  spec.source           = { :http => "https://raw.githubusercontent.com/zhengzhanghai/twitter-kit-ios/master/release/TwitterKit.framework.zip"}
+  # spec.vendored_frameworks = '*.framework'
+  # spec.resource             = "*.bundle"
+  spec.resources = ["TwitterKit.framework/TwitterKitResources.bundle"]
+    
+
 end
