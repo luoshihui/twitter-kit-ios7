@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
  
   spec.name         = "TwitterKit8"
-  spec.version      = "8.0.4"
+  spec.version      = "8.0.5"
   spec.summary      = "Increase user engagement and app growth."
 
   spec.description  = <<-DESC
