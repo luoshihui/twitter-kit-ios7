@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
  
   spec.name         = "TwitterKit8"
-  spec.version      = "9.1.4"
+  spec.version      = "9.1.5"
   spec.summary      = "Increase user engagement and app growth."
 
   spec.description  = <<-DESC
@@ -43,10 +43,9 @@ SOFTWARE.
   spec.source           = { :http => "https://raw.githubusercontent.com/zhengzhanghai/twitter-kit-ios/master/release/TwitterKit8.0.9.zip"}
   # spec.vendored_frameworks = '*.framework'
   # spec.resource             = "*.bundle"
-  spec.resources = ["TwitterKitResources.bundle"]
-  spec.vendored_frameworks = "TwitterKit.framework"
+  spec.resources = ["TwitterKit8.0.9/TwitterKitResources.bundle"]
+  spec.vendored_frameworks = "TwitterKit8.0.9/TwitterKit.framework"
   spec.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
   spec.frameworks = "CoreText", "QuartzCore", "CoreData", "CoreGraphics", "Foundation", "Security", "UIKit", "CoreMedia", "AVFoundation", "SafariServices"
     
-  spec.dependency "TwitterCore", ">= 3.1.0"
 end
