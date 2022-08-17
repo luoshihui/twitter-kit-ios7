@@ -39,10 +39,10 @@ SOFTWARE.
   spec.requires_arc = true
 
   spec.homepage         = 'https://github.com/zhengzhanghai/twitter-kit-ios6'
-  spec.source           = { :http => "https://raw.githubusercontent.com/zhengzhanghai/twitter-kit-ios/master/release/TwitterKit.framework.zip"}
+  spec.source           = { :http => "https://raw.githubusercontent.com/zhengzhanghai/twitter-kit-ios/master/release/TwitterKitFramework8.0.1.zip"}
   # spec.vendored_frameworks = '*.framework'
   # spec.resource             = "*.bundle"
-  spec.resources = ["TwitterKit.framework/TwitterKitResources.bundle"]
-    
+  spec.resources = ["TwitterKitResources.bundle"]
+  spec.vendored_frameworks = "TwitterKit.framework"
 
 end
