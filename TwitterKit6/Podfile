@@ -1,0 +1,20 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+
+def commonPods #通用pods集
+    use_frameworks!
+    
+    pod 'TwitterCore', '3.1.0'
+end
+
+target 'TwitterKit6' do
+  commonPods
+
+end
+
+target 'TwitterKitDemo' do
+  
+  commonPods
+
+end
