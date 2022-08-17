@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
  
   spec.name         = "TwitterKit8"
-  spec.version      = "9.1.0"
+  spec.version      = "9.1.1"
   spec.summary      = "Increase user engagement and app growth."
 
   spec.description  = <<-DESC
@@ -44,5 +44,6 @@ SOFTWARE.
   # spec.resource             = "*.bundle"
   spec.resources = ["TwitterKitResources.bundle"]
   spec.vendored_frameworks = "TwitterKit.framework"
+  spec.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
 
 end
