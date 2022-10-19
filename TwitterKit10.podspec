@@ -32,7 +32,7 @@ SOFTWARE.
 '
   }
   
-  spec.author       = { "luoshihui" => "luoshihui@fotoable.com" }
+  spec.author       = { "luoshihui" => "275268307@qq.com" }
   spec.platform     = :ios, "12.0"
   spec.ios.deployment_target = "12.0"
   
@@ -40,7 +40,7 @@ SOFTWARE.
   spec.static_framework = false
 
   spec.homepage         = 'https://github.com/luoshihui/twitter-kit-ios7'
-  spec.source           = { :http => "https://github.com/luoshihui/twitter-kit-ios7/blob/main/iOS.zip"}
+  spec.source           = { :http => "https://raw.githubusercontent.com/luoshihui/twitter-kit-ios7/10.0.0/iOS.zip"}
   spec.resources = ["iOS/TwitterKit.framework/TwitterKitResources.bundle"]
   spec.vendored_frameworks = "iOS/TwitterKit.framework"
   spec.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
