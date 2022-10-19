@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
  
-  spec.name         = "TwitterKit8"
-  spec.version      = "9.1.8"
+  spec.name         = "TwitterKit10"
+  spec.version      = "10.0.0"
   spec.summary      = "Increase user engagement and app growth."
 
   spec.description  = <<-DESC
@@ -32,18 +32,18 @@ SOFTWARE.
 '
   }
   
-  spec.author       = { "zhengzhanghai" => "zhengzhanghai@fotoable.com" }
-  spec.platform     = :ios, "10.0"
-  spec.ios.deployment_target = "10.0"
+  spec.author       = { "luoshihui" => "luoshihui@fotoable.com" }
+  spec.platform     = :ios, "12.0"
+  spec.ios.deployment_target = "12.0"
   
   spec.requires_arc = true
   spec.static_framework = false
 
-  spec.homepage         = 'https://github.com/zhengzhanghai/twitter-kit-ios6'
-  spec.source           = { :http => "https://raw.githubusercontent.com/zhengzhanghai/twitter-kit-ios/master/release/iOS.zip"}
+  spec.homepage         = 'https://github.com/luoshihui/twitter-kit-ios7'
+  spec.source           = { :http => "https://github.com/luoshihui/twitter-kit-ios7/blob/main/iOS.zip"}
   spec.resources = ["iOS/TwitterKit.framework/TwitterKitResources.bundle"]
   spec.vendored_frameworks = "iOS/TwitterKit.framework"
   spec.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
   spec.frameworks = "CoreText", "QuartzCore", "CoreData", "CoreGraphics", "Foundation", "Security", "UIKit", "CoreMedia", "AVFoundation", "SafariServices"
-  spec.dependency "TwitterCore", ">= 3.1.0"
+  spec.dependency "TwitterCore", ">= 3.2.0"
 end
